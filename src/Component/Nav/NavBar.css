@@ -1,0 +1,16 @@
+.box {
+  height: 7.4vh;
+  width: 100vw;
+  background-color: rgb(234, 181, 255);
+  margin: 0;
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+
+  align-items: center;
+}
+.box h2 {
+  color: black;
+  margin: 0;
+  padding-left: 5vw;
+}

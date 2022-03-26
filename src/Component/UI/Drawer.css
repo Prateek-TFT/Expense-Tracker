@@ -1,0 +1,36 @@
+.Drawer {
+  position: fixed;
+  height: 81vh;
+  width: 49vw;
+  z-index: 0;
+  border: 1px solid black;
+  box-shadow: 0 2px 2px #ccc;
+  text-align: center;
+  transition: all 0.3s ease-out;
+  background-color: white;
+}
+.DrawerOpen {
+  animation: openDrawer 0.4s ease-out forwards;
+}
+
+.DrawerClosed {
+  animation: closeDrawer 0.4s ease-out forwards;
+}
+
+@keyframes openDrawer {
+  0% {
+    transform: translateX(250vh);
+  }
+  100% {
+    transform: translateX(50vh);
+  }
+}
+
+@keyframes closeDrawer {
+  0% {
+    transform: translateX(50vh);
+  }
+  100% {
+    transform: translateX(250vh);
+  }
+}

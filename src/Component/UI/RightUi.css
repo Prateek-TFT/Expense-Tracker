@@ -1,0 +1,78 @@
+.rightContainer {
+  display: flex;
+  flex: 3;
+  background-color: whitesmoke;
+  flex-direction: column;
+  padding: 2%;
+}
+.dataBox {
+  display: flex;
+  flex: 1.5;
+  margin: 2%;
+  background-color: white;
+  box-shadow: 2px 1px 10px 0px gray;
+}
+.formBox {
+  display: flex;
+  flex: 4;
+  margin: 2%;
+  background-color: white;
+  box-shadow: 2px 1px 10px 0px gray;
+}
+.showDataBox {
+  display: flex;
+  flex: 1;
+  margin: 5px;
+  background-color: white;
+  box-shadow: 1px 1px 5px 0px gray;
+  align-items: center;
+  justify-content: center;
+}
+.showDataBoxImageDiv {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.showDataBoxTextDiv {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon {
+  height: 5vh;
+  padding-left: 4vw;
+}
+.showDataBoxTextDiv h3 {
+  margin: 0;
+  font-size: 20px;
+  padding-right: 3vw;
+  font-family: Montserrat, sans-serif;
+}
+.showDataBoxTextDiv h4 {
+  margin: 0;
+  font-size: 20px;
+  padding-right: 3vw;
+  font-family: Montserrat, sans-serif;
+}
+.addExpenseButton {
+  height: 7.5vh;
+  width: 15vw;
+  background-color: red;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  margin-left: 10vh;
+  margin: 5vh;
+}
+.addIncomeButton {
+  height: 7.5vh;
+  width: 15vw;
+  background-color: green;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  margin: 5vh;
+}

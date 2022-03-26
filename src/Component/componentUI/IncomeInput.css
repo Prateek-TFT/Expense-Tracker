@@ -1,0 +1,70 @@
+.mainBox {
+  display: flex;
+  flex: 1;
+  height: 81vh;
+  width: 49vw;
+  flex-direction: column;
+  padding: 5%;
+}
+.headingBox {
+  display: flex;
+  flex: 0.1;
+  align-items: center;
+}
+.headingBox button {
+  height: 4vh;
+  width: 4vh;
+  margin-left: 55%;
+  background-color: white;
+  border: 0;
+  box-shadow: 1px 1px 3px 1px gray;
+}
+.headingBox h3 {
+  margin: 0;
+  color: black;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+}
+.inputBox {
+  display: flex;
+  flex: 3;
+  flex-direction: row;
+  margin: 5%;
+  flex-wrap: wrap;
+}
+.buttonBox {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.buttonBox button {
+  margin: 10px;
+  height: 5vh;
+  width: 10vw;
+  background-color: blue;
+  color: white;
+  border: 0;
+}
+.inputBoxContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-top: 10%;
+}
+.inputBoxContainer input {
+  width: 30vw;
+  height: 20px;
+  margin: 0%;
+}
+.inputDate_Time {
+  width: 30vw;
+  height: 20px;
+  margin: 0%;
+}
+.inputBoxContainer label {
+  color: black;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
